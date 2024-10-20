@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89d316d7-f3a9-4ac2-a600-97acf41cc78c}</ProjectGuid>
+    <Keyword>DynamicLibrary</Keyword>
+    <RootNamespace>rive_rt</RootNamespace>
+    <DefaultLanguage>fr-FR</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <TargetName>rive</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>..\..\include;..\submodules\rive-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\native\RiveSharpInterop.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_reset.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_reset_factory.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_state.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_state_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation_1d.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation_direct.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_1d.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_1d_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_direct.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_direct_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_transition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_ease_interpolator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator_component.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator_solver.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_value_interpolator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\elastic_ease.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\elastic_interpolator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\interpolating_keyframe.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyed_object.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyed_property.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_bool.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_callback.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_color.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_double.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_id.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_interpolator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_string.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_uint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\layer_state.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\linear_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\linear_animation_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_action.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_align_target.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_bool_change.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_fire_event.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_input_change.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_number_change.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_trigger_change.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_viewmodel_change.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_bool.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_linear_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_number.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_remap_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_simple_animation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_state_machine.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_trigger.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_input.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_input_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_layer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_listener.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_transition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\system_state_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_bool_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_input_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_number_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_artboard_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_viewmodel_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_trigger_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_boolean_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_color_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_enum_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_number_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_string_comparator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_viewmodel_condition.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\artboard.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\audio_asset.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset_contents.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset_referencer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\font_asset.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\image_asset.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_engine.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_reader.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_sound.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_source.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\audio_event.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\bone.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\root_bone.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\skin.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\skinnable.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\tendon.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\weight.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\component.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\distance_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\follow_path_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\ik_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\rotation_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\scale_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\targeted_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\transform_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\translation_constraint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\container_component.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_data_reader.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_reader.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_writer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_bool_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_bytes_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_color_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_double_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_string_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_uint_type.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_boolean.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_color.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_enum.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_list.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_list_item.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_number.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_string.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_trigger.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_group.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_group_item.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_operation.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_rounder.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_to_string.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_trigger.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_bind.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_bind_context.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_context.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\dependency_sorter.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\drawable.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\draw_rules.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\draw_target.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\event.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\factory.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\file.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\animation_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\animation_state_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\any_state_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_animation_1d_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_animation_direct_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_1d_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_direct_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_transition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_ease_interpolator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_interpolator_component_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_value_interpolator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\elastic_interpolator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\entry_state_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\exit_state_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyed_object_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyed_property_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_bool_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_callback_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_color_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_double_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_id_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_uint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\linear_animation_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_align_target_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_bool_change_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_fire_event_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_number_change_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_trigger_change_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_viewmodel_change_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_bool_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_remap_animation_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_simple_animation_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_state_machine_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_bool_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_fire_event.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_fire_event_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_layer_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_listener_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_transition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_artboard_condition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_bool_condition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_number_condition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_property_artboard_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_property_viewmodel_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_trigger_condition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_boolean_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_color_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_enum_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_number_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_string_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_trigger_comparator_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_viewmodel_condition_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\artboard_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\audio_asset_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\file_asset_contents_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\folder_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\font_asset_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\image_asset_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\audio_event_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\backboard_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\bone_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\cubic_weight_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\root_bone_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\skin_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\tendon_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\weight_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\distance_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\follow_path_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\ik_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\rotation_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\scale_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\transform_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\translation_constraint_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_boolean_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_boolean_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_color_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_enum_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_group_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_group_item_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_operation_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_rounder_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_to_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\data_bind_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\data_bind_context_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\draw_rules_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\draw_target_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\event_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\joystick_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\axis_x_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\axis_y_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\layout_component_style_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\n_slicer_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\n_slicer_tile_mode_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout_component_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_layout_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_leaf_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\node_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\open_url_event_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\clipping_shape_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\contour_mesh_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_asymmetric_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_detached_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_mirrored_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\ellipse_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\image_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\mesh_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\mesh_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\dash_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\dash_path_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\fill_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\gradient_stop_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\linear_gradient_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\radial_gradient_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\solid_color_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\stroke_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\trim_path_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\points_path_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\polygon_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\rectangle_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\shape_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\star_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\straight_vertex_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\triangle_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\solo_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_modifier_group_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_modifier_range_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_axis_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_feature_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_value_run_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_variation_modifier_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\data_enum_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\data_enum_value_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_component_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_boolean_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_color_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_enum_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_list_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_list_item_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_viewmodel_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_boolean_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_color_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_enum_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_list_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_number_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_string_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_trigger_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_viewmodel_base.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\hittest_command_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\artboard_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\backboard_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\bindable_property_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\data_converter_group_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\enum_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\file_asset_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\keyed_object_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\keyed_property_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\layer_state_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\linear_animation_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_layer_component_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_layer_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_listener_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_transition_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\transition_viewmodel_condition_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_instance_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_instance_list_importer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\intrinsically_sizeable.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\joystick.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis_x.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis_y.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\layout_component_style.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\n_slicer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\n_slicer_tile_mode.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\layout_component.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\aabb.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\bit_field_loc.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\contour_measure.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\hit_test.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\mat2d.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\mat2d_find_max_scale.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\path_measure.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\raw_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\raw_path_utils.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\math\vec2d.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard_layout.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard_leaf.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\node.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\renderer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\scene.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\clipping_shape.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_asymmetric_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_detached_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_mirrored_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\ellipse.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\image.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\mesh.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\mesh_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\color.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\dash.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\dash_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\fill.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\gradient_stop.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\linear_gradient.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\radial_gradient.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\shape_paint.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\shape_paint_mutator.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\solid_color.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\stroke.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\trim_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\parametric_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path_composer.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\points_path.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\polygon.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\rectangle.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\shape.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\shape_paint_container.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\slice_mesh.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\star.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\straight_vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\triangle.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\vertex.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\simple_array.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\solo.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\static_scene.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\font_hb.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\glyph_lookup.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\line_breaker.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\raw_text.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier_group.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier_range.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style_axis.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style_feature.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_value_run.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_variation_modifier.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\text\utf.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\transform_component.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\data_enum.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\data_enum_value.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_boolean.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_color.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_enum.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_list.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_list_item.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_number.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_string.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_trigger.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_value.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_viewmodel.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_property.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_property_enum.cpp" />
+    <ClCompile Include="..\submodules\rive-cpp\src\world_transform_component.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

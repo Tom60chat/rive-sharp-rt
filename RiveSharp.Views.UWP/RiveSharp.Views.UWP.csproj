@@ -11,7 +11,7 @@
     <AssemblyName>RiveSharp.Views.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22000.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22621.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -132,10 +132,14 @@
       <Version>6.2.14</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.Views">
-      <Version>2.88.1</Version>
+      <Version>2.88.8</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\rive-rt\rive-rt.vcxproj">
+      <Project>{89d316d7-f3a9-4ac2-a600-97acf41cc78c}</Project>
+      <Name>rive-rt</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RiveSharp\RiveSharp.csproj">
       <Project>{7a1048dc-d6e5-4dbf-b9ea-2321d0ee0c66}</Project>
       <Name>RiveSharp</Name>

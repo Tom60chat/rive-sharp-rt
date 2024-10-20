@@ -1,0 +1,1373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="submodules">
+      <UniqueIdentifier>{5fded41e-2d64-4e3b-bb0e-07a1a1ade152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp">
+      <UniqueIdentifier>{7c0e6f71-d0d8-4efe-8aa6-838527dd10ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src">
+      <UniqueIdentifier>{f5e00f25-d44c-4de4-ac97-d45da2418483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\animation">
+      <UniqueIdentifier>{2ab49992-87c7-4e22-9620-ac6418faaf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\assets">
+      <UniqueIdentifier>{aed98e17-2dfb-4f02-b831-964188a6039c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\audio">
+      <UniqueIdentifier>{b85115be-9597-4b89-82e1-4094245fbb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\bones">
+      <UniqueIdentifier>{46738277-d3f1-41aa-a88b-6b53af673b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\constraints">
+      <UniqueIdentifier>{3a6c0615-3e18-4fce-b770-3845d9aaf775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\core">
+      <UniqueIdentifier>{e0e4720c-3752-4778-8a67-a91710759094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\core\field_types">
+      <UniqueIdentifier>{9b1e91f4-5ee1-489c-bb89-c477fbc1c9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\data_bind">
+      <UniqueIdentifier>{89ef5fed-aa2a-4e14-b12e-2a346c482d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\data_bind\context">
+      <UniqueIdentifier>{b9812a51-80e7-4eba-971c-1fe8c64d4200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\data_bind\converters">
+      <UniqueIdentifier>{52d7eadf-d53a-40d4-bb08-9bb7dedd3ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated">
+      <UniqueIdentifier>{80fe8307-3150-481a-b89b-4dad99431be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\animation">
+      <UniqueIdentifier>{63487922-ff50-4cfd-b9d7-57276cdee880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\assets">
+      <UniqueIdentifier>{e08dcd21-3eee-402c-a533-be97f56f9f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\bones">
+      <UniqueIdentifier>{c32266d3-9c70-47bf-bd3a-3f56de2a913d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\constraints">
+      <UniqueIdentifier>{29212f50-a835-47f7-9edd-f85af5c2a2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\data_bind">
+      <UniqueIdentifier>{74ed2d7b-2ed1-4cce-9850-ce5aee63b8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\data_bind\converters">
+      <UniqueIdentifier>{217e7a44-d887-4bb9-96a8-4cec2c50173b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\layout">
+      <UniqueIdentifier>{fd4ffcf5-2d93-418f-9d0c-9cb6834444e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\shapes">
+      <UniqueIdentifier>{d6d715be-8a1e-40d2-a9e9-f65898f338f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\shapes\paint">
+      <UniqueIdentifier>{3619cb4f-806c-4ba7-9d93-90b2d1f16218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\text">
+      <UniqueIdentifier>{27a181ce-2cc1-4d14-bb06-55a8e4610c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\generated\viewmodel">
+      <UniqueIdentifier>{12f60262-8519-4029-93a1-bcdcde85a582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\importers">
+      <UniqueIdentifier>{fe0589c4-677f-4efa-8eda-602e67dca029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\layout">
+      <UniqueIdentifier>{3f77aba9-15c0-43f0-a911-28273c9776b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\math">
+      <UniqueIdentifier>{f5928376-4e11-48ca-b5f4-5e06f1290bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\shapes">
+      <UniqueIdentifier>{ce0628d0-5e60-4a15-b886-0b1812ffaa7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\shapes\paint">
+      <UniqueIdentifier>{ffa708de-5a44-4c90-be2f-7af9c116491f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\text">
+      <UniqueIdentifier>{6328e4c2-c2ed-4813-89be-361cd13b76e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\rive-cpp\src\viewmodel">
+      <UniqueIdentifier>{5dbdebb6-d4e2-4940-af47-c28b54c7a91f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\submodules\rive-cpp\src\artboard.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\audio_event.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\component.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\container_component.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\dependency_sorter.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\draw_rules.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\draw_target.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\drawable.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\event.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\factory.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\file.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\hittest_command_path.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\intrinsically_sizeable.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\joystick.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout_component.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard_layout.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\nested_artboard_leaf.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\node.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\renderer.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\scene.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\simple_array.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\solo.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\static_scene.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\transform_component.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\world_transform_component.cpp">
+      <Filter>submodules\rive-cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_reset.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_reset_factory.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_state.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\animation_state_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation_1d.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_animation_direct.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_1d.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_1d_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_direct.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_direct_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\blend_state_transition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_ease_interpolator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator_component.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_interpolator_solver.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\cubic_value_interpolator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\elastic_ease.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\elastic_interpolator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\interpolating_keyframe.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyed_object.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyed_property.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_bool.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_callback.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_color.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_double.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_id.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_interpolator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_string.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\keyframe_uint.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\layer_state.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\linear_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\linear_animation_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_action.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_align_target.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_bool_change.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_fire_event.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_input_change.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_number_change.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_trigger_change.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\listener_viewmodel_change.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_bool.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_linear_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_number.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_remap_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_simple_animation.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_state_machine.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\nested_trigger.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_input.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_input_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_layer.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_machine_listener.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\state_transition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\system_state_instance.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_bool_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_input_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_number_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_artboard_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_property_viewmodel_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_trigger_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_boolean_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_color_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_enum_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_number_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_value_string_comparator.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\animation\transition_viewmodel_condition.cpp">
+      <Filter>submodules\rive-cpp\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\audio_asset.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset_contents.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\file_asset_referencer.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\font_asset.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\assets\image_asset.cpp">
+      <Filter>submodules\rive-cpp\src\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_engine.cpp">
+      <Filter>submodules\rive-cpp\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_reader.cpp">
+      <Filter>submodules\rive-cpp\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_sound.cpp">
+      <Filter>submodules\rive-cpp\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\audio\audio_source.cpp">
+      <Filter>submodules\rive-cpp\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\bone.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\root_bone.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\skin.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\skinnable.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\tendon.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\bones\weight.cpp">
+      <Filter>submodules\rive-cpp\src\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\distance_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\follow_path_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\ik_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\rotation_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\scale_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\targeted_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\transform_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\constraints\translation_constraint.cpp">
+      <Filter>submodules\rive-cpp\src\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_data_reader.cpp">
+      <Filter>submodules\rive-cpp\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_reader.cpp">
+      <Filter>submodules\rive-cpp\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\binary_writer.cpp">
+      <Filter>submodules\rive-cpp\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_bool_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_bytes_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_color_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_double_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_string_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\core\field_types\core_uint_type.cpp">
+      <Filter>submodules\rive-cpp\src\core\field_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_bind.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_bind_context.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\data_context.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_boolean.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_color.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_enum.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_list.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_list_item.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_number.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_string.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\context\context_value_trigger.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_group.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_group_item.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_operation.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_rounder.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_to_string.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\data_bind\converters\data_converter_trigger.cpp">
+      <Filter>submodules\rive-cpp\src\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\artboard_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\audio_event_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\backboard_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_boolean_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\custom_property_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\draw_rules_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\draw_target_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\event_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\joystick_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout_component_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_layout_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\nested_artboard_leaf_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\node_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\open_url_event_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\solo_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\animation_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\animation_state_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\any_state_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_animation_1d_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_animation_direct_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_1d_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_direct_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\blend_state_transition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_ease_interpolator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_interpolator_component_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\cubic_value_interpolator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\elastic_interpolator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\entry_state_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\exit_state_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyed_object_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyed_property_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_bool_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_callback_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_color_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_double_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_id_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\keyframe_uint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\linear_animation_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_align_target_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_bool_change_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_fire_event_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_number_change_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_trigger_change_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\listener_viewmodel_change_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_bool_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_remap_animation_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_simple_animation_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_state_machine_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\nested_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_bool_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_fire_event.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_fire_event_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_layer_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_listener_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_machine_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\state_transition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_artboard_condition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_bool_condition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_number_condition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_property_artboard_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_property_viewmodel_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_trigger_condition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_boolean_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_color_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_enum_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_number_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_string_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_value_trigger_comparator_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\animation\transition_viewmodel_condition_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\audio_asset_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\file_asset_contents_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\folder_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\font_asset_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\assets\image_asset_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\bone_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\cubic_weight_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\root_bone_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\skin_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\tendon_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\bones\weight_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\bones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\distance_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\follow_path_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\ik_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\rotation_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\scale_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\transform_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\constraints\translation_constraint_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_boolean_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_color_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_enum_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\bindable_property_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\data_bind_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\data_bind_context_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_group_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_group_item_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_operation_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_rounder_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_to_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\data_bind\converters\data_converter_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\data_bind\converters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\axis_x_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\axis_y_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\layout_component_style_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\n_slicer_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\layout\n_slicer_tile_mode_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\clipping_shape_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\contour_mesh_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_asymmetric_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_detached_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\cubic_mirrored_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\ellipse_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\image_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\mesh_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\mesh_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\points_path_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\polygon_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\rectangle_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\shape_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\star_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\straight_vertex_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\triangle_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\dash_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\dash_path_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\fill_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\gradient_stop_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\linear_gradient_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\radial_gradient_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\solid_color_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\stroke_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\shapes\paint\trim_path_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_modifier_group_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_modifier_range_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_axis_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_style_feature_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_value_run_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\text\text_variation_modifier_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\data_enum_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\data_enum_value_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_component_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_boolean_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_color_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_enum_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_list_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_list_item_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_instance_viewmodel_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_boolean_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_color_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_enum_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_list_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_number_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_string_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_trigger_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\generated\viewmodel\viewmodel_property_viewmodel_base.cpp">
+      <Filter>submodules\rive-cpp\src\generated\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\artboard_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\backboard_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\bindable_property_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\data_converter_group_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\enum_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\file_asset_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\keyed_object_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\keyed_property_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\layer_state_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\linear_animation_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_layer_component_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_layer_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_machine_listener_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\state_transition_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\transition_viewmodel_condition_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_instance_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\importers\viewmodel_instance_list_importer.cpp">
+      <Filter>submodules\rive-cpp\src\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis_x.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\axis_y.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\layout_component_style.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\n_slicer.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\layout\n_slicer_tile_mode.cpp">
+      <Filter>submodules\rive-cpp\src\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\aabb.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\bit_field_loc.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\contour_measure.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\hit_test.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\mat2d.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\mat2d_find_max_scale.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\path_measure.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\raw_path.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\raw_path_utils.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\math\vec2d.cpp">
+      <Filter>submodules\rive-cpp\src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\clipping_shape.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_asymmetric_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_detached_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_mirrored_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\cubic_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\ellipse.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\image.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\mesh.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\mesh_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\parametric_path.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path_composer.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\path_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\points_path.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\polygon.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\rectangle.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\shape.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\shape_paint_container.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\slice_mesh.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\star.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\straight_vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\triangle.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\vertex.cpp">
+      <Filter>submodules\rive-cpp\src\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\color.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\dash.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\dash_path.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\fill.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\gradient_stop.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\linear_gradient.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\radial_gradient.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\shape_paint.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\shape_paint_mutator.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\solid_color.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\stroke.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\shapes\paint\trim_path.cpp">
+      <Filter>submodules\rive-cpp\src\shapes\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\font_hb.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\glyph_lookup.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\line_breaker.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\raw_text.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier_group.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_modifier_range.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style_axis.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_style_feature.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_value_run.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\text_variation_modifier.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\text\utf.cpp">
+      <Filter>submodules\rive-cpp\src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\data_enum.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\data_enum_value.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_boolean.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_color.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_enum.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_list.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_list_item.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_number.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_string.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_trigger.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_value.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_instance_viewmodel.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_property.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodules\rive-cpp\src\viewmodel\viewmodel_property_enum.cpp">
+      <Filter>submodules\rive-cpp\src\viewmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\RiveSharpInterop.cpp" />
+  </ItemGroup>
+</Project>
